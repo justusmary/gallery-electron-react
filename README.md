@@ -1,7 +1,17 @@
 # Usage
 
-```npm run dev``` for testing
+For testing:
+```
+npm run dev
+```
 
-```npm run release``` for packaging
+For packaging:
+```
+npm run release
+```
 
-place any number of pictures in ```src\static``` folder to test.
+place any number of pictures in 
+```
+src\static
+```
+folder to test.
