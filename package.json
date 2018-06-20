@@ -31,8 +31,8 @@
     "eject": "react-scripts eject",
     "electron": "electron .",
     "dev": "nf start -p 3000",
-    "electron-build": "electron-builder -c.extraMetadata.main=build/electron.js",
-    "release": "npm run build && npm run electron-build --publish=always",
+    "electron-build": "electron-builder",
+    "dist": "npm run build && npm run electron-build --publish=always",
     "electron-pack": "build --em.main=build/electron.js"
   },
   "eslintConfig": {

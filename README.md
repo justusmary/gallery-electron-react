@@ -1,26 +1,21 @@
-# Usage
+# Description
+
+This is just a very very very hyper minimal image viewer written in ElectronJS and ReactJS
+
+
+## Usage
 
 To initialize, First Enter
 ```
 npm install
 ```
 
-
-
-For testing:
+To Test:
 ```
 npm run dev
 ```
 
-For packaging:
+To package:
 ```
-npm run release
+npm run dist
 ```
-
-
-
-place any number of pictures in 
-```
-src\static
-```
-to test.

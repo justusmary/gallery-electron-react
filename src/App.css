@@ -40,13 +40,17 @@ padding: 40px;
 
 .tz-gallery .thumbnail {
 padding: 0;
-margin-bottom: 30px;
+margin-bottom: 0px;
 border: none;
 box-shadow: none;
 }
 
 .tz-gallery img {
-border-radius: 2px;
+  border-radius: 0px;
+}
+
+.tz-gallery .row > div{
+  padding: 1px
 }
 
 .tz-gallery .caption{
@@ -55,9 +59,10 @@ text-align: center;
 }
 
 .tz-gallery .caption h3 {
-font-size: 14px;
+font-size: 12px;
 font-weight: bold;
 margin-top: 0;
+color: #7b7d7d;
 }
 
 .tz-gallery .caption p {
@@ -67,5 +72,40 @@ margin: 0;
 }
 
 .tz-gallery .img-responsive {
-height: 240px !important;
+  height: 180px !important;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.select {
+  text-align: center;
+  margin: auto;
+  display: block
+}
+
+.folder {
+  height: 180px !important;
+  margin: 0;
+  /*background-color: rgb(23, 24, 26);*/
+  border: none;
+  transition: 0.15s ease-in-out;
+  text-align: center;
+  /*box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);*/
+}
+
+.tz-gallery .folder-icon {
+  height: 90px !important;
+  padding: 0;
+  object-position: center;
+}
+
+.tz-gallery .thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3) !important;
+}
+
+.tz-gallery .folder-icon:hover {
+  transform: scale(1.25);
+  /*box-shadow: 0 8px 15px rgba(0,0,0,0.3) !important;*/
 }
